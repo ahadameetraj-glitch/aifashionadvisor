@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/fashion-advice.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/fashion-advice", "dest": "api/fashion-advice.js" }
+  ]
+}
